@@ -1,10 +1,10 @@
-# AutomationBrigde
+# AutomationBridge
 
 > 💼 **Commercial Project** — internal solution for automated conveyor and PTL systems.
 
 ## Overview
 
-**AutomationBrigde** is a .NET Worker Service solution containing two independent background services: **PLCWorker** and **PTLWorker**.
+**AutomationBridge** is a .NET Worker Service solution containing two independent background services: **PLCWorker** and **PTLWorker**.
 
 - **PLCWorker** acts as a TCP/IP server for PLC controllers, handling frame processing (SCN, CMD, WDG) and integrating with a SQL database via Dapper to determine package routing.
 - **PTLWorker** synchronizes with the PTL system over TCP/IP, sending and receiving messages to coordinate material handling.
